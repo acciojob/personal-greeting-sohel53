@@ -6,7 +6,7 @@ const App = () => {
   let [name, setName] = useState("");
 
   function handleChange(event){
-    setName(event.target.name)
+    setName(event.target.value)
   }
 
 
